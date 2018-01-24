@@ -1,9 +1,20 @@
-# birthday-calendar
+# Birthday/Anniversary Calendar Event Creator
 This Google Script application is designed to automatically populate a Google Calendar with birthday and anniversary events. The user simply adds their friends and families to this spreadsheet, then with a click of a button the application does the rest.
 
 You can find an example spreadsheet here: https://docs.google.com/spreadsheets/d/1UB3x4x3we-IrEKIogmkhqFAaIeJ88WKNpCDxDrvaQ98/edit?usp=sharing
 
-# Setting Up #
+# Adding Script to Google Docs #
+
+Before you can use the script, you will need to add it to your Google Sheet document:
+1. Open the document
+
+2. Select "Tools" > "Script Editor"
+
+3. Copy the contents of "Code.gs" from this repository into the script editor
+
+4. Save the project with any name you choose.
+
+# Configuring the Application #
 
 1. Go to "Config" tab
 
@@ -50,3 +61,6 @@ You can find an example spreadsheet here: https://docs.google.com/spreadsheets/d
 
 5. Check your calendar, the events should have been deleted.
 
+
+## Attributions ##
+This work is entirely my own. However, its creation was influenced by a prior work implemented by William Jackson in Python: https://github.com/williamjacksn/birthdayfeed
